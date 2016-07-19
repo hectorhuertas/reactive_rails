@@ -28,8 +28,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'react-rails'
-
 group :development, :test do
+  gem 'capybara'
   gem 'rspec-rails', '~> 3.4'
   gem 'factory_girl_rails'
   gem 'pry-rails'
